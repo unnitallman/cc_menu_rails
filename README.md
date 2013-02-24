@@ -28,6 +28,8 @@ Add this to your routes.rb
 From anywhere in your Ruby on Rails application use one of the below:
 
     - CcMenu::Status.set :status => :success, :activity => :sleeping
+    ![Success Sleeping](/doc/success_sleeping.png)
+
     - CcMenu::Status.set :status => :success, :activity => :building
     - CcMenu::Status.set :status => :failed, :activity => :sleeping
     - CcMenu::Status.set :status => :failed, :activity => :building

@@ -1,0 +1,3 @@
+= CcMenu
+
+    mount CcMenu::Engine => "/cc.xml"

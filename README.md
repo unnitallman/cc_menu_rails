@@ -28,15 +28,15 @@ Add this to your routes.rb
 From anywhere in your Ruby on Rails application use one of the below:
 
     - CcMenu::Status.set :status => :success, :activity => :sleeping
-![Success Sleeping](https://github.com/unnitallman/cc_menu_rails/blob/master/doc/success_sleeping.png?raw=true)
+![Success Sleeping](doc/success_sleeping.png)
 
     - CcMenu::Status.set :status => :success, :activity => :building
-![Success Sleeping](https://github.com/unnitallman/cc_menu_rails/blob/master/doc/success_building.png?raw=true)
+![Success Sleeping](doc/success_building.png)
 
     - CcMenu::Status.set :status => :failed, :activity => :building
-![Success Sleeping](https://github.com/unnitallman/cc_menu_rails/blob/master/doc/failed_building.png?raw=true)
+![Success Sleeping](doc/failed_building.png)
 
     - CcMenu::Status.set :status => :failed, :activity => :sleeping
-![Success Sleeping](https://github.com/unnitallman/cc_menu_rails/blob/master/doc/failed_sleeping.png?raw=true)
+![Success Sleeping](doc/failed_sleeping.png)
 
 

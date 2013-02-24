@@ -8,7 +8,7 @@ OSX users can download and install CCMenu from http://ccmenu.sourceforge.net/
 CCMenu Configuration
 --------------------
 
-Add a new project in your CCMenu desktop client with the url as <http://your_app.com>/cc.xml
+Add a new project in your CCMenu desktop client with the url as http://your_app.com/cc.xml
 
 Gem installation
 ----------------

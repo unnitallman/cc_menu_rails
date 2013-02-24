@@ -1,14 +1,15 @@
-= CCMenu for Rails
+CCMenu for Rails
+================
 
 Install CCMenu Desktop Client
--------------------------------
+-----------------------------
 
 OSX users can download and install CCMenu from http://ccmenu.sourceforge.net/
 
 CCMenu Configuration
 --------------------
 
-Add a new project in your CCMenu desktop client with the url as http://your_app.com/cc.xml
+Add a new project in your CCMenu desktop client with the url as **http://your_app.com/cc.xml**
 
 Gem installation
 ----------------
@@ -26,9 +27,8 @@ Add this to your routes.rb
 
 From anywhere in your Ruby on Rails application use one of the below:
 
-    CcMenu::Status.set :status => :success, :activity => :sleeping
-    CcMenu::Status.set :status => :success, :activity => :building
-    CcMenu::Status.set :status => :failed, :activity => :sleeping
-    CcMenu::Status.set :status => :failed, :activity => :building
-
+    - CcMenu::Status.set :status => :success, :activity => :sleeping
+    - CcMenu::Status.set :status => :success, :activity => :building
+    - CcMenu::Status.set :status => :failed, :activity => :sleeping
+    - CcMenu::Status.set :status => :failed, :activity => :building
 
